@@ -139,7 +139,10 @@ body {
     position: relative;
 
 }
+.menu-items ul li:hover .hide {
+ display: block;
 
+}
 .c-nav_dropdown-menu.cc-solutions {
     width: 47em;
     grid-template-columns: auto auto auto;
@@ -260,6 +263,9 @@ body {
 
 .casses {
     left: -16rem;
+}
+.hide{
+    display: none;
 }
 
 .boxx {
