@@ -85,7 +85,7 @@ body {
 
 .navbarr {
 
-    background-color: #1c1f21;
+    background-color: #fff;
     border-radius: .26em;
 
     justify-content: space-between;
@@ -356,12 +356,13 @@ body {
     align-items: center;
     line-height: 1.2;
     transition: all .5s cubic-bezier(.165, .84, .44, 1);
-    color: rgb(250, 250, 250);
+    color: black;
     text-decoration: none;
 }
 
 .menu-items ul li a:hover {
     background-color: #131618;
+    color: white;
 }
 
 
@@ -434,7 +435,7 @@ body {
 
     .navbarr {
 
-        background-color: #1c1f21;
+        background-color: #fff;
         border-radius: .26em;
 
         justify-content: space-between;
