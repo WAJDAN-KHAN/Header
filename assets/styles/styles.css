@@ -121,7 +121,7 @@ body {
     font-size: 14.0762px;
     line-height: 1.2;
     padding-bottom: 4px;
-    color: #fafafa;
+    color: #000;
 }
 
 .c-text_xs {
@@ -154,7 +154,7 @@ body {
 .c-nav_dropdown-menu {
     grid-column-gap: 3.13em;
     grid-row-gap: 3.13em;
-    background-color: #1c1f21;
+    background-color: #fff;
     border-top-left-radius: .52em;
     border-bottom-left-radius: .52em;
     grid-template-rows: auto;
@@ -182,14 +182,14 @@ body {
 .c-text_s {
     font-size: .89em;
     line-height: 1.2;
-    color: rgb(250, 250, 250);
+    color: #000;
     padding: 10px 0px;
 }
 
 .c-paragraph_s {
     font-size: .83em;
     line-height: 1.6;
-    color: rgb(250, 250, 250);
+    color: #000;
 }
 
 .cc-text_purple-500 .c-text_s {
@@ -216,6 +216,7 @@ body {
 
 .c-nav_dropdown-menu_item:hover {
     background-color: #131618;
+    color: #fff !important;
 }
 
 .c-nav_dropdown-menu_item {
@@ -362,7 +363,7 @@ body {
 
 .menu-items ul li a:hover {
     background-color: #131618;
-    color: white;
+    color: #ffff !important;
 }
 
 
@@ -481,7 +482,7 @@ body {
         margin-left: 15px;
         margin-right: 15px;
         margin-top: 10px;
-        background-color: #1c1f21;
+        background-color: #ffff;
     }
 
     .c-button {
@@ -493,7 +494,7 @@ body {
     }
 
     .c-nav_menu-wrap {
-        background-color: #1c1f21;
+        background-color: #ffff;
         border-radius: .26em;
         width: 100%;
         height: 75vh;
@@ -526,7 +527,7 @@ body {
         font-size: 14.872px;
         line-height: 1.2;
         transition: all .5s cubic-bezier(.165, .84, .44, 1);
-        color: rgb(250, 250, 250);
+        color: #000;
         text-decoration: none;
         display: flex;
         align-items: center;
