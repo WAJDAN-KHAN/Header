@@ -476,7 +476,7 @@ body {
         left: 0;
         right: 0;
         overflow: hidden;
-        height: 5499.2px;
+        height: 600px;
         margin-left: 15px;
         margin-right: 15px;
         margin-top: 10px;
@@ -522,7 +522,7 @@ body {
         background-color: rgba(19, 22, 24, 0);
         border-radius: .26em;
         padding: .6em .8em;
-        font-size: 1.07em;
+        font-size: 14.872px;
         line-height: 1.2;
         transition: all .5s cubic-bezier(.165, .84, .44, 1);
         color: rgb(250, 250, 250);
@@ -580,5 +580,25 @@ body {
         /* padding: 1em; */
         display: flex;
         height: auto;
+    }
+    .c-text_s{
+        font-size: 14.872px;
+    }
+    .c-paragraph_s{
+        font-size: 14.872px;
+    }
+    .c-nav_dropdown-menu_icon{
+        width: 20px;
+        height: 20px;
+    }
+    .c-text_ss{
+        font-size: 14.872px        ;
+    }
+    .mobile-items ul li a{
+        align-items: self-start;
+    }
+    .titlee{
+        font-size: 14.872px
+        ;
     }
 }
